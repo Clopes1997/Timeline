@@ -56,6 +56,7 @@ export interface TimelineConfig {
   DATE_LABEL_STEP_DIVISOR: number;
   MAX_DATE_LABELS: number;
   GAP_THRESHOLD_PX: number;
+  MIN_DATE_MARKER_WIDTH: number;
 }
 
 /**

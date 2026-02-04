@@ -1,7 +1,7 @@
 import type { TimelineItem } from './types';
 
 const timelineItems: TimelineItem[] = [
-  { id: 1, start: "2024-06-03", end: "2024-06-08", name: "Refactor API client" },
+  { id: 1, start: "2024-06-03", end: "2024-06-20", name: "Recco Shopping" },
   { id: 2, start: "2024-06-05", end: "2024-06-20", name: "Design onboarding flow" },
   { id: 3, start: "2024-06-12", end: "2024-06-18", name: "Write unit tests for auth" },
   { id: 4, start: "2024-06-15", end: "2024-07-02", name: "Implement search indexing" },
@@ -21,7 +21,7 @@ const timelineItems: TimelineItem[] = [
 
   { id: 16, start: "2024-08-22", end: "2024-09-05", name: "Implement notifications" },
   { id: 17, start: "2024-09-02", end: "2024-09-14", name: "Performance profiling" },
-  { id: 18, start: "2024-09-10", end: "2024-09-22", name: "Prepare release notes" },
+  { id: 18, start: "2024-09-10", end: "2024-09-22", name: "Refactor API client" },
 ];
 
 export default timelineItems;

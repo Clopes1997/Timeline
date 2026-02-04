@@ -798,6 +798,8 @@ body {
   position: absolute;
   top: 0;
   height: 100%;
+  min-width: 60px;
+  overflow: hidden;
 }
 
 .date-marker-line {
@@ -813,11 +815,14 @@ body {
   position: absolute;
   top: 8px;
   left: 8px;
+  right: 8px;
   font-size: 12px;
   color: #333;
   white-space: nowrap;
   font-weight: 500;
   line-height: 1.33;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .timeline-content {

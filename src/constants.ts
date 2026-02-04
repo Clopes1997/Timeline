@@ -11,6 +11,8 @@ export const TIMELINE_CONFIG: TimelineConfig = {
   MAX_DATE_LABELS: 50,
   // Minimum gap in pixels between items before they can share a lane
   GAP_THRESHOLD_PX: 20,
+  // Minimum width in pixels for each date marker label
+  MIN_DATE_MARKER_WIDTH: 60,
 };
 
 // Milliseconds per day constant for date arithmetic
