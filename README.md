@@ -12,58 +12,33 @@ Timeline is a visual project management tool that allows you to:
 - **Auto-lane Assignment**: Items are automatically arranged in lanes to prevent overlaps
 - **Edit Items**: Double-click items to edit their names
 
-## Deployment
+## Getting Started
 
-### Build for Production
-
-```bash
-npm run build
-```
-
-This creates production-ready files in the `dist/` folder.
-
-### Deploy to GitHub Pages
-
-The project is configured with GitHub Actions to automatically deploy to GitHub Pages:
-
-1. **Push to main branch**: Any push to the `main` branch triggers automatic deployment
-   ```bash
-   git add .
-   git commit -m "Your commit message"
-   git push origin main
-   ```
-
-2. **Configure GitHub Pages**: 
-   - Go to repository Settings > Pages
-   - Select "Deploy from a branch"
-   - Choose `gh-pages` branch and `/ (root)` folder
-   - Save
-
-The GitHub Actions workflow will automatically build and deploy your app to the `gh-pages` branch. Your site will be available at `https://[your-username].github.io/Timeline/`
-
-### Manual Deployment
-
-If you need to deploy manually:
+### Installation
 
 ```bash
-# Build the project
-npm run build
-
-# The workflow will handle deployment automatically on push
-git add .
-git commit -m "Deploy to GitHub Pages"
-git push origin main
-```
-
-## Development
-
-```bash
-# Install dependencies
 npm install
+```
 
-# Start development server
+### Running the Application
+
+```bash
 npm start
+```
 
-# Run tests
+This will start the Parcel development server and automatically open the app in your browser at `http://localhost:1234`.
+
+### Running Tests
+
+```bash
 npm test
 ```
+
+## How to Use
+
+1. **View Timeline**: The timeline displays all items horizontally with their start and end dates
+2. **Move Items**: Click and drag an item left or right to change its dates
+3. **Resize Items**: Drag the left or right edge of an item to change its start or end date
+4. **Search**: Use the search bar at the top to filter items by name
+5. **Zoom**: Use the zoom controls to adjust the timeline scale
+6. **Edit Names**: Double-click any item to edit its name
