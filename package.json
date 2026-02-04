@@ -1,7 +1,7 @@
 {
-  "name": "airtable-timeline",
+  "name": "timeline",
   "version": "1.0.0",
-  "description": "Airtable Timeline",
+  "description": "Timeline",
   "scripts": {
     "start": "parcel src/index.html --open",
     "build": "parcel build src/index.html --public-url ./",
